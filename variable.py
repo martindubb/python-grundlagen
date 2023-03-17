@@ -58,5 +58,3 @@ print(type(i))
 # zugriff auf 'value' über 'key'
 print(i["alter"])
 print(i["name"])
-
-# kommentar
