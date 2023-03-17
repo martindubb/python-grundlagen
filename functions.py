@@ -1,7 +1,8 @@
 # funktionen
 
-# funnktion, um zu prüfen, ob zutat in zutatenliste
-def check_zutat(zutat):
+# funktion, um zu prüfen, ob zutat in zutatenliste
+# variable 'zutat' ist hier verfügbar!
+def check_zutat():
     if zutat in alle_zutaten:
         print("JA " + zutat + " ist dabei")
     else:
@@ -9,12 +10,12 @@ def check_zutat(zutat):
 
 alle_zutaten =["eier", "mehl", "milch", "backpulver", "apfel", "butter", "zucker"]
 
-# ist x in der zutatenliste?
+# ist zutat in der zutatenliste?
 zutat = "eier"
-check_zutat(zutat) # funktionsaufruf
+check_zutat() # funktionsaufruf
 
 zutat = "mehl"
-check_zutat(zutat) # funktionsaufruf
+check_zutat() # funktionsaufruf
 
 zutat = "banane"
-check_zutat(zutat) # funktionsaufruf
+check_zutat() # funktionsaufruf
