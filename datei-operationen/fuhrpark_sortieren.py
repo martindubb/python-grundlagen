@@ -18,3 +18,7 @@ for i in alle_zeilen:
 
 # neue datei schließen
 datei_sortiert.close()
+
+# ausgabe der sortierten liste
+for i in alle_zeilen:
+    print(i)
